@@ -1,0 +1,123 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAFLzntJC6EktCk=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Data Model",
+			"ownedElements": [
+				{
+					"_type": "ERDDiagram",
+					"_id": "AAAAAAFLzntJC6ElOqo=",
+					"_parent": {
+						"$ref": "AAAAAAFLzntJC6EktCk="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGXq3NPmbwnuvQ=",
+							"_parent": {
+								"$ref": "AAAAAAFLzntJC6ElOqo="
+							},
+							"model": {
+								"$ref": "AAAAAAGXq3NPmLwlD4o="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXq3NPmbwo8RM=",
+									"_parent": {
+										"$ref": "AAAAAAGXq3NPmbwnuvQ="
+									},
+									"font": "Arial;13;1",
+									"parentStyle": true,
+									"left": 136,
+									"top": 117,
+									"width": 304,
+									"height": 13,
+									"text": "User"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGXq3NPmbwp11g=",
+									"_parent": {
+										"$ref": "AAAAAAGXq3NPmbwnuvQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGXq3NPmLwlD4o="
+									},
+									"subViews": [
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGXq3lANr0VSoA=",
+											"_parent": {
+												"$ref": "AAAAAAGXq3NPmbwp11g="
+											},
+											"model": {
+												"$ref": "AAAAAAGXq3lALL0SqmE="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 141,
+											"top": 140,
+											"width": 294,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 136,
+									"top": 135,
+									"width": 304,
+									"height": 23
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 136,
+							"top": 112,
+							"width": 304,
+							"height": 232,
+							"nameLabel": {
+								"$ref": "AAAAAAGXq3NPmbwo8RM="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGXq3NPmbwp11g="
+							}
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGXq3NPmLwlD4o=",
+					"_parent": {
+						"$ref": "AAAAAAFLzntJC6EktCk="
+					},
+					"name": "User",
+					"columns": [
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGXq3lALL0SqmE=",
+							"_parent": {
+								"$ref": "AAAAAAGXq3NPmLwlD4o="
+							},
+							"name": "_d",
+							"documentation": "generated automatically via mongoDb\n",
+							"type": "VARCHAR",
+							"length": 0,
+							"primaryKey": true,
+							"unique": true
+						}
+					]
+				}
+			]
+		}
+	]
+}
